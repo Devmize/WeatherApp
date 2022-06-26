@@ -10,7 +10,6 @@ import UIKit
 class MainCityViewController: UIViewController {
     
     private let viewModel = MainCityViewModel()
-    private let viewmodeltest = CityViewModel()
     
     private lazy var tableView: UITableView = {
         let tv = UITableView(frame: view.bounds, style: .plain)
